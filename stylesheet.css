@@ -25,7 +25,7 @@ body{
     font-size: 24px;
 }
 
-button {
+.header button {
     background-color: #3882f6;
     color:#f9faf8;
     flex: 0;
@@ -79,7 +79,21 @@ ul {
 
 
 .info{
+    color: #1f2937;
+}
 
+.info button {
+    background-color: white;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    height: 120px;
+    width: 120px;
+}
+
+#info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .quote {
