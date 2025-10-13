@@ -1,0 +1,95 @@
+body{
+    font-family: Roboto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 0px 50px 100px 100px;
+    /* margin: auto; */
+    font-size: 18px;
+}
+
+#hero-text-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#hero-logo {
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882f6;
+    color:#f9faf8;
+    flex: 0;
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    min-width: fit-content;
+}
+
+.middle{
+    display: flex;
+    gap: 20px;
+    /* background-color: lightskyblue; delete me */
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.middle .header-left {
+    display: flex;
+    flex-direction: column;
+    /* background-color: bisque; delete me */
+    flex: 1;
+}
+
+.header .img-ph {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex: 1;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+.info{
+
+}
+
+.quote {
+
+}
+
+.cta {
+
+}
+
+.footer {
+
+}
