@@ -3,6 +3,7 @@ body{
     /* display: flex;
     flex-direction: column;
     align-items: center; */
+    margin: 0;
 }
 
 .header {
@@ -84,27 +85,52 @@ ul {
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    background-color: maroon; /*delete me*/
+    /* background-color: maroon; delete me */
 }
 
 .boxes {
-    background-color: salmon;
+    /* background-color: salmon; delete me */
     display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+/* FIX ME!! */
+.boxes .box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    /* flex: 1 0 120; */
+    /* flex-basis: 120px; */
+    width: 140px;
+    /* justify-content: space-between; */
+    overflow-wrap:break-word;
 }
 
-.info button {
-    background-color: white; /*delete me*/
+/* .boxes-item .box-text {
+    flex: 0 0;
+} */
+
+.info .cube {
+    background-color: white;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    height: 140px;
+    width: 140px;
+}
+/* .info button {
+    background-color: white;
     border: 3px solid #3882f6;
     border-radius: 8px;
     height: 120px;
     width: 120px;
-}
+} */
 
 #info-header {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    background-color: aquamarine; /*delete me*/
+    /* background-color: aquamarine; delete me */
 }
 
 .quote {
