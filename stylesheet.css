@@ -1,8 +1,5 @@
 body{
     font-family: Roboto;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     margin: 0;
 }
 
@@ -134,7 +131,24 @@ ul {
 }
 
 .quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 5px;
+}
 
+.quote-text {
+    text-align: left;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
 }
 
 .cta {
