@@ -150,9 +150,20 @@ ul {
     font-weight: bold;
     text-align: right;
 }
-
+/* add a container */
 .cta {
+    background-color: #3882f6;
+    color: #f9faf8f9;
+    display: flex;
+    justify-content: center;
+    margin: 25px 100px;
+}
 
+.cta button {
+    border: 1px solid #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 110px;
 }
 
 .footer {
