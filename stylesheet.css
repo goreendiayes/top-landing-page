@@ -151,18 +151,40 @@ ul {
     text-align: right;
 }
 /* add a container */
+
 .cta {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 60px; */
+    padding: 50px;
+    flex: 1;
+}
+
+.cta-container {
     background-color: #3882f6;
     color: #f9faf8f9;
     display: flex;
-    justify-content: center;
-    margin: 25px 100px;
+    /* flex-direction: column; */
+    /* padding: 20px; */
+    width: 1510px;
+    height: auto;
+    justify-content: space-around;
+    border-radius: 10px;
+    /* margin: 25px 100px; */
 }
 
+.cta-text {
+    /* font-weight: bold; */
+    /* font-size: large; */
+    flex: 5;
+}
 .cta button {
-    border: 1px solid #f9faf8;
+    border: 2px solid #f9faf8;
     background-color: #3882f6;
-    border-radius: 8px;
+    border-radius: 4px;
+    color: #f9faf8;
+    text-align: center;
+    padding: 5px;
     width: 110px;
 }
 
