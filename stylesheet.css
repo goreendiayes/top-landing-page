@@ -173,5 +173,9 @@ ul {
 }
 
 .footer {
-
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 20px;
 }
